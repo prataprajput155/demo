@@ -2,10 +2,7 @@
 public class PatternPrint {
 
 	public void print() {
-		
 
-		
-		System.out.println();
 		for(int i=0;i<=5;i++) {
 			
 			
