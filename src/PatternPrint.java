@@ -3,7 +3,13 @@ public class PatternPrint {
 
 	public void print() {
 		
-
+		String test ="sheep";
+		
+		char[] stream = test.toCharArray();
+		
+		for(int i=stream.length-1;i>=0;i--) {
+			System.out.print(stream[i]);
+		}
 		
 		System.out.println();
 		for(int i=0;i<=5;i++) {
